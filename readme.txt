@@ -1,4 +1,4 @@
-=== CSS & JavaScript Toolbox ===
+=== CJTE ImageBlockWhiteEffect  ===
 Contributors: wipeoutmedia
 Author URL: http://css-javascript-toolbox.com
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EWDWF75JHT9Q6
