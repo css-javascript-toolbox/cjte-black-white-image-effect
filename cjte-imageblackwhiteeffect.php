@@ -62,11 +62,17 @@ class CJTEImageBlockWhiteEffectPackage_Plugin {
 	* 
 	*/
 	public function _pluginActivated() {
+		# CJT Plugin directory
+		$cjtPluginDir = ABSPATH . PLUGINDIR . DIRECTORY_SEPARATOR . 'css-javascript-toolbox';
 		# Autload CJT!
-		require_once ABSPATH . PLUGINDIR . DIRECTORY_SEPARATOR . 'css-javascript-toolbox' . DIRECTORY_SEPARATOR . 'autoload.inc.php';
-		# Activate Plugin
-		$activator = new CJT_Framework_Extensions_Package_Activator($this);
-		$activator->activate();
+		require_once $cjtPluginDir . DIRECTORY_SEPARATOR . 'autoload.inc.php';
+		# Cannot run on CJT Frameworks before activator class is exists
+		$activatorClassPath = array($cjtPluginDir, 'framework', 'extensions', 'package', 'activator.php');
+		if (file_exists(implode(DIRECTORY_SEPARATOR, $activatorClassPath))) {
+			# Activate Plugin
+			$activator = new CJT_Framework_Extensions_Package_Activator($this);
+			$activator->activate();
+		}
 	}
 
 	/**
