@@ -2,7 +2,7 @@
 Contributors: wipeoutmedia
 Author URL: http://css-javascript-toolbox.com
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EWDWF75JHT9Q6
-Tags: image, picture, photo, black, white, effect, monochrome, greyscale
+Tags: image, picture, photo, black, white, effect, monochrome, greyscale, colors
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.9
