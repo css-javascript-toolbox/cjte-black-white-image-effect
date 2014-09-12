@@ -2,7 +2,7 @@
 Contributors: wipeoutmedia
 Author URL: http://css-javascript-toolbox.com
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EWDWF75JHT9Q6
-Tags: image, picture, photo, black, white, effect, monochrome, greyscale, colors
+Tags: image, picture, photo, black, white, effect, monochrome, greyscale, colors, extension, cjt, cjte
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.9
@@ -12,7 +12,7 @@ Stable tag: 0.5
 This CJT extension plugin can easily convert any coloured image into a greyscale image.
 
 == Description ==
-Transforms images into greyscale colours, and then changes them back to full colour on mouse-over. A setting can be changed to invert the effect so a colour image turns to greyscale on mouse-over. Includes a setting to tweak the transition effect speed. Uses the HTML5 canvas tag and a fallback for the older dinosaur browsers.
+This [CJT Plugin](http://wordpress.org/plugins/css-javascript-toolbox/) script extension transforms images into greyscale colours, and then changes them back to full colour on mouse-over. A setting can be changed to invert the effect so a colour image turns to greyscale on mouse-over. Includes a setting to tweak the transition effect speed. Uses the HTML5 canvas tag and a fallback for the older dinosaur browsers.
 
 This extension is currently in BETA and the settings form is a little technical. In the next release, we will make this much simpler and user-friendly. More parameters will also be added later.
 
