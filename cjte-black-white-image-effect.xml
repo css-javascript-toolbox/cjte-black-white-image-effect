@@ -4,6 +4,6 @@
 		<event type="CJTPlugin.load" />
 	</getInvolved>
 	<packages version="1.0" folder="packages">
-		<package name="image-black-white-effect" file="cjte-blackwhiteimageeffect.cpk.zip" version="0.5" />
+		<package name="image-black-white-effect" file="cjte-black-white-image-effect.cpk.zip" version="0.5" />
 	</packages>
 </extension>

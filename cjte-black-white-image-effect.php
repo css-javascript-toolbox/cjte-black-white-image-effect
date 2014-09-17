@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: CJTE ImageBlackWhiteEffect
+Plugin Name: CJTE Black & White Image Effect
 Plugin URI: http://css-javascript-toolbox.com/script-extensions/black-white-image-effect/
 Description: CJT-Extension plug-in can easily convert any colored image into a greyscale image
 Version: 0.5
