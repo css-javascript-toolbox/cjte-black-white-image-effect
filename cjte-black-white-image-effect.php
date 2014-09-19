@@ -64,6 +64,11 @@ class CJTEImageBlockWhiteEffectPackage_Plugin {
 	public function _pluginActivated() {
 		# CJT Plugin directory
 		$cjtPluginDir = ABSPATH . PLUGINDIR . DIRECTORY_SEPARATOR . 'css-javascript-toolbox';
+		# Make sure CJT is loaded
+		if (!defined('CJTOOLBOX_PATH')) {
+			# run CJT Plugin
+			require_once $cjtPluginDir . DIRECTORY_SEPARATOR . 'css-js-toolbox.php';
+		}
 		# Autload CJT!
 		require_once $cjtPluginDir . DIRECTORY_SEPARATOR . 'autoload.inc.php';
 		# Cannot run on CJT Frameworks before activator class is exists
